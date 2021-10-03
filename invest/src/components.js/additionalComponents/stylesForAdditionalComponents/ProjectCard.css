@@ -1,0 +1,94 @@
+
+.card-body {
+    background-color: #f2f6ff;
+    padding: 30px 30px;
+    min-height: 445px;
+}
+
+.card-image {
+    margin-bottom: -5px;
+}
+
+.card-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.card-body h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #282424;
+    text-align: center;
+    margin: 0;
+
+}
+
+.card-body p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #282424;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.card-info {
+    display: flex;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.loan {
+    box-sizing: border-box;
+}
+
+.card-info h5 {
+    font-size: 25px;
+    color: #00aae1;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+.label {
+    display: block;
+    padding-top: 20px;
+    font-size: 13px;
+    color: rgba(28, 54, 83, 0.7);
+    font-weight: 400;
+}
+
+.card-body hr {
+    height: 58px;
+    border: 1px solid;
+    color: rgba(28, 54, 83, 0.2);
+}
+
+.progress-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: rgba(28, 54, 83, 0.6);
+    font-weight: 300;
+}
+
+.learnBtn {
+        text-decoration: none;
+        font-size: 18px;
+        color: #fff;
+}
+
+
+.card-wrap:hover {
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 33px;
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
+/* -MEDIA */

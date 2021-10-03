@@ -1,0 +1,40 @@
+.card-info-page {
+    display: flex;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 10тpx;
+    padding-top: 5px;
+}
+
+
+.card-info-page h5 {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+}
+
+.label-page {
+    display: block;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.card-info-page hr{
+    height: 58px;
+    border: 1px solid;
+    color: #236285;
+}
+
+.progress-info-page {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: white;
+    font-weight: 300;
+}

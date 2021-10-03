@@ -1,0 +1,122 @@
+.card-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:#fff;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 965px;
+}
+
+.card{
+    flex-basis: 300px;
+    max-width: 290px;
+    display: inline-block;
+    padding: 15px;
+}
+.card-image-inv{
+    height: 200px;
+}
+.card-image-inv img{
+    height: 100%;
+    width: 100%;
+}
+
+.card-body-inv {
+    text-align: center;
+    background-color: #f2f6ff;
+    padding: 30px 30px;
+    height: 185px;
+}
+
+.card-body-inv h4 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #282424;
+    text-align: center;
+    margin: 0;
+}
+
+.card-info-inv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.card-info-inv h5 {
+    font-size: 22px;
+    color: #00aae1;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+.loan-inv, .month-inv, .roi-inv {
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-inv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5EE4B6;
+    height: 40px;
+    padding: 0 30px;
+}
+.my-inv-data{
+    font-size: 16px;
+    color: #fff;
+}
+.amount-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.inv-amount, .inv-projects, .inv-revenue{
+    flex-basis: 300px;
+}
+.inv-amount, .inv-projects, .inv-revenue{
+    margin: 10px auto;
+} 
+
+
+.inv-wrapper{
+    box-sizing: border-box;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 290px;
+}
+
+.inv-amount{
+    border: 1px solid #5EE4B6;
+    color: #5EE4B6;
+}
+.inv-projects{
+    border: 1px solid #375FC8;
+    color: #375FC8;
+}
+.inv-revenue{
+    border: 1px solid #9937C8;
+    color: #9937C8;
+}
+
+@media (max-width: 400px) {
+    .card-row{
+        padding: 15px;
+    }
+    .card {
+        transform: scale(0.95);
+    }
+}

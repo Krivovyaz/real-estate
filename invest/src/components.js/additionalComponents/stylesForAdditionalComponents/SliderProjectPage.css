@@ -1,0 +1,21 @@
+
+
+.slick-prev{
+    height: 30px;
+    object-fit: cover;
+    z-index: 100;
+    display: block;
+}
+
+.slick-next{
+    height: 30px;
+    object-fit: cover;
+    z-index: 100;
+    display: block;
+}
+
+.slide-photo-custom{
+    width: 90%;
+    object-fit: cover;
+    margin: 0 10px 0 14px !important;
+}

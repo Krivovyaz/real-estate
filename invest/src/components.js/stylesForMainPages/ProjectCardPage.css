@@ -1,0 +1,51 @@
+
+.description-project-page{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.location-project-page {
+    margin-top: 40px;
+}
+
+.location-text{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.location-google{
+    margin: 0 0 40px 0;
+}
+
+.terms{
+    display: flex;
+    margin-top: 40px;
+}
+
+.terms-text ol {
+    padding-left: 70px;
+}
+
+.terms-text li{
+    padding: 20px 0 0 5px;
+}
+
+@media(max-width: 520px) {
+    .description-project-page{
+        flex-direction: column;
+        align-items: center;
+    }
+    .location-text{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .terms{
+        flex-direction: column;
+        align-items: center;
+    }
+    .terms-text ol {
+        padding-left: 0;
+        text-align: center;
+    }
+}

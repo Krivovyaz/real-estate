@@ -1,0 +1,46 @@
+
+.profile-block {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 170px 50px 50px 50px;
+}
+
+.profile-left-navBar {
+    flex: 0 0 21%;
+}
+.profile-right-data{
+    flex: 1 1 auto;
+}
+.navBar-list{
+    list-style: none;
+}
+.list-element{
+    display: flex;
+    align-items: center;
+    color: #868890;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.list-element:hover{
+    color: #00AAE1;
+}
+.fa-user, .user-icon, .fa-cog, .fa-home:before {
+    color: #00AAE1;
+    font-size: 25px;
+    padding: 0 15px 0 0;
+}
+
+.focused-text {
+    color: #00AAE1;
+}
+
+@media (max-width: 500px) {
+    .profile-block {
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}

@@ -1,0 +1,40 @@
+.text-404{
+    padding-bottom: 40px;
+}
+
+.text-404 h1{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #054163;
+    padding-bottom: 20px;
+}
+
+.text-404 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000;
+    text-align: center;;
+}
+
+.page-404 {
+    box-sizing: border-box;
+    max-width: 800px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 150px 20px 0 20px;
+    align-items: center;
+}
+
+@media (max-width: 770px){
+    .page-404 {
+        height: calc(100vh - 90px);
+        padding: 80px 20px 0 20px;
+    }
+}

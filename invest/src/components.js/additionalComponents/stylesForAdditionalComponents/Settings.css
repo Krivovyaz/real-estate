@@ -1,0 +1,94 @@
+.set-form-title{
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #054163;
+}
+
+
+.set-input-form {
+    /* margin-bottom: 20px;; */
+    height: 70px;
+}
+
+
+.set-input-row {
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 10px;
+    color: rgba(28, 54, 83, 0.6);
+    width: 100%;
+    height: 40px;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+}
+.set-input-rowfocus {
+        box-shadow: rgb(0 0 0 / 20%) 0px 0px 10px;
+        border-radius: 5px;
+  }
+
+.password, .phone{
+    padding-top: 50px;
+}
+.password hr, .phone hr{
+        z-index: 4;
+        border: 0px none;
+        height: 1px;
+        box-shadow: rgb(0 0 0 / 20%) 0px 0px 10px;
+        margin-bottom: 30px;
+}
+.set-form-subtitle{
+    padding: 20px 0;
+}
+
+.set-form-subtitle p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #054163;
+}
+
+.set-data-row{
+    max-width: 800px;
+}
+
+.set-input-elem {
+    width: 46.7%;
+}
+
+
+/* .input-holder_2{
+    width: 29.5%;
+}
+.input-holder_1{
+    width: 46.7%;
+} */
+
+.input-holder_1 p, .input-holder_2 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #868891;
+}
+input.row-small1, .row-big {
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 10px;
+    color: rgba(28, 54, 83, 0.6);
+    width: 100%;
+    height: 40px;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+input.row-small:focus, input.row-big:focus {
+        box-shadow: rgb(0 0 0 / 20%) 0px 0px 10px;
+        border-radius: 5px;
+  }

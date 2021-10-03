@@ -1,0 +1,153 @@
+.myProfileIcon{
+    font-size: 150px;
+    color: #868890;
+}
+.user-info {
+    display: flex;
+}
+
+.user-title{
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #054163;
+}
+
+.user-info-text{
+    padding-left: 25px;
+}
+.user-info-text p{
+    font-size: 20px;
+    color: #054163;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.user-info-text ul{
+    list-style: none;
+}
+
+.user-data{
+    font-weight: 400;
+    font-size: 18px;
+    color: #595B69;
+    padding: 5px 0;
+}
+
+.fa-phone-alt, .fa-envelope {
+    padding-right: 10px;
+}
+
+.data-subtitle{
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: #054163;
+}
+
+/* .button{
+    margin-left: auto;
+    margin-right: 0;
+    background-color: #00aae1;
+    padding: 15px 56px;
+    outline: none;
+    border-radius: 5px;
+    max-width: 100px;
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+    cursor: pointer;
+} */
+    
+.button:hover{
+    background-color: #35c4f2;
+    transition-duration: 0.3s;
+}
+
+.data-row{
+    max-width: 800px;
+}
+.name, .account, .about{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.input-holder_1 {
+ min-width: 240px;
+}
+
+.input-holder_1:not(:last-child), .input-holder_2:not(:last-child){
+    margin-right: 20px;
+}
+.input-holder_2{
+    width: 30%;
+    min-width: 160px;
+}
+.input-holder_1{
+    width: 46.7%;
+    min-width: 240px;
+}
+
+.input-holder_1 p, .input-holder_2 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #868891;
+}
+input.row-small, .row-big {
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 10px;
+    color: rgba(28, 54, 83, 0.6);
+    width: 100%;
+    height: 40px;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+input.row-small:focus, input.row-big:focus {
+        box-shadow: rgb(0 0 0 / 20%) 0px 0px 10px;
+        border-radius: 5px;
+  }
+
+
+@media (max-width: 1000px){
+    .myProfileIcon{
+        font-size: 100px;
+    }
+}
+
+
+@media (max-width: 500px){
+    .name, .account, .about{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: none;
+    }
+
+    .user-info {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .user-info-text {
+        padding: 0;
+    }
+}
+
+@media (min: 500px){
+    .name, .account, .about{
+        align-items: center;
+    }
+
+    .user-info {
+        align-items: center;
+    }
+}

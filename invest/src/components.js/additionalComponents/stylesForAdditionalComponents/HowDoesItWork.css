@@ -1,0 +1,44 @@
+.title{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #282424;
+}
+
+.instructions {
+    display: flex;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+.instruction {
+    display: flex;
+}
+
+.instruction-text {
+    text-align: left;
+    padding: 15px 15px 0 15px;
+    max-width: 350px;
+}
+
+.instruction-text h4{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282424;
+    margin: 0 5px 8px 3px;
+}
+
+.instruction-text p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #282424;
+    margin: 0 auto;
+    width: 98%;
+}

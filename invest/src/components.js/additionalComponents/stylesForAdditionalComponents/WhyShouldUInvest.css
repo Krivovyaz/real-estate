@@ -1,0 +1,75 @@
+.why-should-title{
+    text-align: center;
+    padding-bottom: 90px;
+    padding-top: 0;
+}
+
+.why-should-title h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #282424;
+}
+
+.fin-ideas {
+    display: flex;
+    margin: 0 6%;
+}
+
+.fin-idea {
+    display: flex;
+    margin: 0 20px;
+}
+
+.fin-text{
+    margin-left: 20px;
+}
+
+.fin-idea h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #282424;
+    margin-bottom: 5px;
+}
+
+.fin-idea p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #282424;
+}
+
+/* -MEDIA */
+@media (max-width: 979px){
+    .fin-photo {
+        text-align: center;
+        display: inline-block;
+        margin: 0px auto;
+    }
+    .fin-ideas{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    }
+}
+@media (max-width: 468px){
+    .why-should-title h3{
+        font-size: 32px;
+        margin: 0 20px;
+    }
+    .fin-idea {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .fin-idea p {
+        text-align: center;
+    }
+    .fin-photo {
+        margin-bottom: 20px;
+    }
+
+}

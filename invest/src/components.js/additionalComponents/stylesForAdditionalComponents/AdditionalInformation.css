@@ -1,0 +1,46 @@
+.main-part {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px auto;
+    max-width: 1150px;
+    padding: 65px 15px;
+}
+.additional-header {
+    box-sizing: border-box;
+}
+
+.additional-header h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding-bottom: 35px;
+    margin: 0px auto;
+    color: #fff;
+}
+
+.sign-up {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+/* -MEDIA */
+
+@media (max-width: 468px){
+    .additional-header h3{
+        font-size: 32px;
+    }
+}

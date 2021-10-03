@@ -1,0 +1,241 @@
+.SignUpPhoto {
+    width: 55%;
+    left: 0;
+    background-color: #F2F6FF;
+    height: calc(100vh - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignUpPhoto img {
+    width: 70%;
+}
+
+.SignUpInfo {
+    width: 45%;
+    height: calc(100vh - 90px);
+    padding: 0 50px 0 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.SignUpInfo h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #054163;
+    line-height: 49px;
+    padding-bottom: 43px;
+}
+
+
+
+.text_input {
+    width: 100%;
+    max-width: 500px;
+    height: 60px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+}
+
+.text_input input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.2;
+    padding: 0 0 0 26px ;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+.confirm_password_input {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    height: 60px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+
+.confirm_password_input input {
+    width: 85%;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.2;
+    padding: 0 0 0 26px ;
+}
+
+.password_form {
+    width: 80%;
+    height: 95px;
+    max-width: 500px;
+}
+
+.text-form {
+    width: 80%;
+    height: 95px;
+    max-width: 500px;
+}
+
+.text_error{
+    width: 100%;
+    padding-left: 15px;
+
+}
+
+.text_error p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: red;
+}
+
+.hide {
+    display: none;
+}
+
+.fa-eye{
+    font-size: 20px;
+    color: #C5C5C5;
+    margin: auto  20px auto 0;
+    cursor: pointer;
+
+}
+
+.forgot_password {
+    width: 80%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+}
+
+.forgot_password_text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #0AAAE1;
+    cursor: pointer;
+}
+
+.forgot_password_text:hover {
+    color:black;
+}
+
+.SignUpBtn{
+    width: 80%;
+    text-decoration: none;
+}
+
+.not_registered{
+    display: flex;
+    justify-content: center;
+}
+
+.not_registered p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #989898;
+    margin-right: 5px;
+}
+
+.signUpNow {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #0AAAE1;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.policy {
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.policy p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #999999;
+    line-height: 1.4;
+}
+
+.policy a {
+    margin: 0 4px;
+}
+
+
+.policy input {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.policy-first-part-text {
+    display: flex;
+}
+
+
+.errorEmail {
+    color: red !important;
+}
+
+
+@media (max-width: 1000px){
+    .SignUpInfo {
+     padding: 0 20px;   
+    }
+}
+
+ @media (max-width: 768px){
+    .SignUpPhoto {
+       display: none;
+    }
+    .SignUpInfo {
+        width: 100%;
+    }
+
+    .password_form {
+        width: 100%;
+    }
+    
+    .text-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1400px){
+    .policy {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
